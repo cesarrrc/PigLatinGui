@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  background-color: purple;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.header_icon {
+  height: 100px;
+}
+
+
+.text-input {
+  width : 100%;
+  resize: none;
+  padding: 10px;
+
+}
+
+.text-output {
+  background-color: rgb(175, 139, 175);
+  color: purple;
+  padding: 15px;
+}
