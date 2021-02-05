@@ -2,13 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
 html {
-  background-color: purple;
+  background-color: rgb(246, 129, 246);
 }
-
+/* font-family: 'Josefin Slab', serif;
+font-family: 'Patrick Hand', cursive; */
 .container {
   max-width: 600px;
   margin: 0 auto;
@@ -21,10 +21,12 @@ html {
   align-items: center; 
   margin-top: 50px;
   margin-bottom: 30px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 40px;
 }
 
 .header_icon {
-  height: 100px;
+  height: 200px;
 }
 
 
@@ -32,11 +34,16 @@ html {
   width : 100%;
   resize: none;
   padding: 10px;
-
+  font-family: 'Patrick Hand', cursive;
+  font-size: 24px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
 }
 
 .text-output {
-  background-color: rgb(175, 139, 175);
-  color: purple;
-  padding: 15px;
+  background-color: rgb(246, 129, 246);
+  font-family: 'Patrick Hand', cursive;
+  font-size: 24px;
+  /* letter-spacing: 1px; */
+  word-spacing: 20px;
 }

@@ -4,7 +4,6 @@ const vowels = ['a','e','i','o','u']
 
 textInput.addEventListener('keyup', (e) => {
   const input = e.target.value;
-  console.log(input)
   //builds an array
   const words = input.split(' ');
   const output = words.map(word => convertToPigLatin(word)).join(" ")
@@ -21,10 +20,10 @@ const convertToPigLatin = (input) => {
       if(vowels.includes(input[i])) {
         break;
       }
-            consonants += input[i]
+        consonants += input[i]
     }
     output = input.substring(consonants.length) + "-" + consonants + "ay" 
   }
   //translate to pig latin and display new text
-  return output;
+  return output
   }
